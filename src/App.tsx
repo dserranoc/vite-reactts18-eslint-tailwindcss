@@ -7,15 +7,18 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className='flex justify-center items-center'>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://tailwindcss.com/" target="_blank">
+          <img src="/tailwindcss.svg" className="logo" alt="TailwindCSS logo" />
+        </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + TailwindCSS</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -25,7 +28,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the logos to learn more
       </p>
     </div>
   )
