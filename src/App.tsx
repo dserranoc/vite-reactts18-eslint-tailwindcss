@@ -14,6 +14,9 @@ function App () {
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+          <img src="/typescript.svg" className="logo react" alt="TypeScript logo" />
+        </a>
         <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
           <img src="/tailwindcss.svg" className="logo" alt="TailwindCSS logo" />
         </a>
@@ -21,7 +24,7 @@ function App () {
           <img src="/eslint.svg" className="logo" alt="ESLint logo" />
         </a>
       </div>
-      <h1>Vite + React + TailwindCSS + ESLint</h1>
+      <h1>Vite + React 18 + TS + TailwindCSS + ESLint</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
